@@ -1,0 +1,39 @@
+
+TODO for pyRL project
+====================
+
+Implement Environments (in Python) or Convert C/C++ into Module:
+------------------------------
+Dart Throwing (from Bruno Castro da Silva's paper on parameterized skills)
+Partially Observable Taxi
+Simulated-Simplified Red Room (GDK/S.K.'s work, similar to a more functional continuous playroom)
+N-DOF Reaching and Reaching through viapoint
+Ball in Cup simulation
+
+
+Implement Agents (in Python) or Convert C/C++ into Module:
+------------------------------
+
+Implement "save_trajectory filename numsteps" message support into base class of existing agents
+
+TD-delta Pi
+TDC / GTD
+Skill Chaining
+PoWER
+PI^2
+
+
+Extensions to Existing Implementations:
+------------------------------
+
+Add other exploration bonus methods to the modelbased agents
+Add pygame based viewer for Tetris environment
+Provide reasonable 'working' parameters for every agent algorithm. Currently missing:
+	Sarsa ANN
+	REINFORCE
+	Composite Mirror Descent
+By having working parameters for every algorithm on at least one domain, and 
+every domain for at least one algorithm, I plan to build a script which uses 
+them as tests. This should ensure that I don't break things accidentally. 
+Actual unit tests on RL agents and environments would be great, but until 
+inspiration hits, this is probably the best approach.

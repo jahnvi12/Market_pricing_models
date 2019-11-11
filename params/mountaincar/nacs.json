@@ -1,0 +1,20 @@
+{
+	"environment": {
+		 "params": {
+			}, "name": "Mountain Car"}, 
+	"experiment": {
+		 "params": {
+		 	   "num_episodes": 50
+			}, "name": "Episodic"}, 
+	"agent": {
+		 "params": {
+			   "epsilon": 0.01,
+			   "beta": 0.004,
+			   "nac_freq": 200,
+			   "gamma": 0.99,
+			   "lmbda": 0.7,
+			   "alpha": 0.004,
+			   "basis": "fourier",
+			   "fourier_order": 3
+			}, "name": "Natural Actor-Critic with Sarsa"}
+}
